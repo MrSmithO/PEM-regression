@@ -1,0 +1,29 @@
+
+Call:
+lm(formula = power_density ~ current_density + cell_voltage, 
+    data = data)
+
+Residuals:
+     Min       1Q   Median       3Q 
+-243.161  -59.823   -1.745   60.022 
+     Max 
+ 198.696 
+
+Coefficients:
+                Estimate Std. Error
+(Intercept)      5.90435   29.94991
+current_density  0.32573    0.01617
+cell_voltage    84.04177   35.01021
+                t value Pr(>|t|)    
+(Intercept)       0.197   0.8438    
+current_density  20.150   <2e-16 ***
+cell_voltage      2.400   0.0167 *  
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05
+  ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 78.24 on 648 degrees of freedom
+Multiple R-squared:  0.7677,	Adjusted R-squared:  0.767 
+F-statistic:  1071 on 2 and 648 DF,  p-value: < 2.2e-16
+
