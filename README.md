@@ -48,5 +48,3 @@ The analysis is robust but could benefit from:
 
 * Including additional variables (e.g., pressure, relative humidity) to improve accuracy
 * Exploring non-linear relationships and interaction effects between predictors
-readme-md.md
-Displaying readme-md.md.
